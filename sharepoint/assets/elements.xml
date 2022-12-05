@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="NewYearCountdown"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="5e6dec6d-6d12-4c3d-88d9-eb524d5525cd"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>

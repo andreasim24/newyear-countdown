@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://v1lwd.sharepoint.com/sites/TestSite/SitePages/Home.aspx",
+      "customActions": {
+        "5e6dec6d-6d12-4c3d-88d9-eb524d5525cd": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "isSnowflakeEnabled": true,
+            "isCountdownEnabled": true,
+            "isChristmasLightEnabled": true
+          }
+        }
+      }
+    },
+    "newYearCountdown": {
+      "pageUrl": "https://v1lwd.sharepoint.com/sites/TestSite/SitePages/Home.aspx",
+      "customActions": {
+        "5e6dec6d-6d12-4c3d-88d9-eb524d5525cd": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "isSnowflakeEnabled": true,
+            "isCountdownEnabled": true,
+            "isChristmasLightEnabled": true
+          }
+        }
+      }
+    }
+  }
+}
